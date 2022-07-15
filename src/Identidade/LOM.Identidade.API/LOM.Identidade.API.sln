@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOM.Identidade.API", "LOM.Identidade.API.csproj", "{4FD09EB6-6DEC-4B87-9924-97A349B47989}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FD09EB6-6DEC-4B87-9924-97A349B47989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD09EB6-6DEC-4B87-9924-97A349B47989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD09EB6-6DEC-4B87-9924-97A349B47989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD09EB6-6DEC-4B87-9924-97A349B47989}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15081B53-A3D8-401A-8A5D-7EBC89EFABF8}
+	EndGlobalSection
+EndGlobal
