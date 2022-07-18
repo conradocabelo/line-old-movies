@@ -31,7 +31,7 @@ namespace LEN.Services.Identidade.Controllers
             if (result.Succeeded)
             {
                 var user = await _userManager.FindByEmailAsync(usuarioLogin.Email);
-                return Ok(_tokenFactory.Create(user));
+                return Ok(await _tokenFactory.Create(user));
             }
 
             if (result.IsLockedOut)
